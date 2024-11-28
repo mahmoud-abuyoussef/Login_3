@@ -114,3 +114,19 @@ section form .submit-btn {
   border-radius: 32px;
   box-shadow: 0 4px 26px rgb(var(--black) / 25%);
 }
+section .form .login-options {
+  margin-top: 49px;
+}
+section .form .login-options p {
+  text-align: center;
+  color: var(--philippine-silver);
+}
+section .form .login-options .options ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 49px;
+}
+section .form .login-options .options ul li {
+  margin: 0 10px;
+}

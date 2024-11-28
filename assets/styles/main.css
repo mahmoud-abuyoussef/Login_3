@@ -8,9 +8,9 @@
   --black: #000000;
   --blue: #0c21c1;
   --cetacean-blue: #000842;
-  --cetacean-blue: #000842;
   --spanish-gray: #999999;
   --philippine-silver: #b5b5b5;
+  --dark-liver: #4d4d4d;
 }
 body {
   font-family: "Poppins", serif;
@@ -45,6 +45,9 @@ header .logo {
   font-size: 20px;
   color: var(--black);
 }
+section .form {
+  width: 50%;
+}
 section .form h1 {
   margin-bottom: 22px;
   font-size: 30px;
@@ -57,4 +60,56 @@ section .form .have-an-account a {
   color: var(--blue);
   font-size: 16px;
   font-weight: 600;
+}
+section form {
+  margin-top: 52px;
+}
+section form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--spanish-gray);
+}
+section form input {
+  border: none;
+  outline: none;
+}
+section form .input-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--cetacean-blue);
+}
+section form .input-container:first-of-type {
+  margin-bottom: 49px;
+}
+section form .input-container input {
+  padding: 10px;
+}
+section form .input-container input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--cetacean-blue);
+}
+section form .options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+section form .options label {
+  display: inline;
+}
+section form .forgot-paddword {
+  color: var(--dark-liver);
+}
+section form .submit-btn {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-top: 49px;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 32px;
+  box-shadow: 0 4px 26px rgb(var(--black) / 25%);
 }

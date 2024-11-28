@@ -21,12 +21,32 @@
     <main>
       <section>
         <div class="container">
-          <div>
+          <div class="form">
             <h1>Sign in</h1>
             <p class="have-an-account">
               If you don’t have an account register <br />
               You can <a href="signup.html">Register here !</a>
             </p>
+            <form method="post">
+              <label for="email">Email</label>
+              <div class="input-container">
+                <img src="assets/icons/message.webp" class="icon" alt="Email Icon" />
+                <input type="email" id="email" name="email" placeholder="Enter your email address" />
+              </div>
+              <label for="password">Password</label>
+              <div class="input-container">
+                <img src="assets/icons/padlock.webp" class="icon" alt="Password icon" />
+                <input type="password" name="password" id="password" placeholder="Enter your password" />
+              </div>
+              <div class="options">
+                <div class="remember-me">
+                  <input type="checkbox" name="remember-me" id="remember-me" />
+                  <label for="remember-me">Remember me</label>
+                </div>
+                <a href="#" class="forgot-paddword">Forgot Password ?</a>
+              </div>
+              <input type="submit" value="Login" class="submit-btn" />
+            </form>
           </div>
         </div>
       </section>

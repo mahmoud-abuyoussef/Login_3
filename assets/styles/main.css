@@ -99,6 +99,7 @@ section form .options {
 }
 section form .options label {
   display: inline;
+  color: var(--black);
 }
 section form .forgot-paddword {
   color: var(--dark-liver);
